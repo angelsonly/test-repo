@@ -83,3 +83,12 @@ while True:
         break
     print line
 print 'Done!'
+
+# algorithm of finding the largest number
+largest_so_far = -1
+print 'Before', largest_so_far
+for num in [14, 66, 39, 28, 59, 35, 88]:
+    if num > largest_so_far:
+        largest_so_far = num
+    print largest_so_far, num
+print 'After', largest_so_far

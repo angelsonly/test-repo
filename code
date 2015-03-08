@@ -35,4 +35,30 @@ if hours > 40:
     pay = rate * 40 + (rate * 1.5 * (hours - 40))
     print pay
 
+""" A prameter is a variable which we use in the def function 
+which is a "handle" that allows the code in the function to
+sccess the arguments for particular function invocation"""
 
+
+big = max ('Irina bulygina')
+print (big)
+big2 = max ('Hello world')
+print (big2)
+
+def addtwo(a, b):
+    added = a + b
+    return added
+x = addtwo(3, 5)
+print x
+
+def greet(ant):
+    if ant == 'es':
+        print 'Hola'
+    elif ant == 'fr':
+        print 'Bonjour'
+    else:
+        print 'Hello'
+       
+greet ('en')
+greet ('fr')
+greet ('es')

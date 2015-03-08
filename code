@@ -25,7 +25,6 @@ if hours > 40:
 which is a "handle" that allows the code in the function to
 sccess the arguments for particular function invocation"""
 
-
 big = max ('Irina bulygina')
 print (big)
 big2 = max ('Hello world')
@@ -79,10 +78,19 @@ for num in [14, 66, 39, 28, 59, 35, 88]:
     print largest_so_far, num
 print 'After', largest_so_far
 
-for letter in 'banana':
-    print letter
     
 #slicing strings
 s = 'The best singer in the World'
 print s[0:5]
 print s [5:40]
+
+for letter in 'banana':
+    print letter
+
+#searching in strings
+frut = 'banana'
+pos = frut.find ('a')
+print pos
+
+aa = frut.find('z')
+print aa

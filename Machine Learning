@@ -4,3 +4,6 @@ clf = GaussianNB()
 #fit is the same as train
 # x - features, y - labels
 clf.fit(X, Y)
+GaussianNB()
+# we give it new coordinate and ask to predict which class soes it belong to
+print(clf.predict([[-0.8, -1]]))

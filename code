@@ -71,6 +71,11 @@ while n > 0:
 print 'Blistful'
 print n
 
+# Simple definite loop
+friends = ['Lo', 'Ro', 'P']
+for friend in friends:
+    print 'Happy New year', friend
+
 # Breaking out of the loop
 while True:
     line = raw_input ('>')

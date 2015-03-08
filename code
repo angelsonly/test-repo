@@ -1,22 +1,8 @@
 # we have to convert str into int
 value = '123'
-
 type(value)
 Out[2]: str
-
-print value + 1
----------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-<ipython-input-3-93001fcec7cb> in <module>()
-----> 1 print value + 1
-
-TypeError: cannot concatenate 'str' and 'int' objects 
-
 value2=int(value)
-
-type(value2)
-Out[5]: int
-
 print value2+1
 124
 
@@ -92,3 +78,11 @@ for num in [14, 66, 39, 28, 59, 35, 88]:
         largest_so_far = num
     print largest_so_far, num
 print 'After', largest_so_far
+
+for letter in 'banana':
+    print letter
+    
+#slicing strings
+s = 'The best singer in the World'
+print s[0:5]
+print s [5:40]

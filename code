@@ -70,3 +70,11 @@ while n > 0:
     n = n - 1
 print 'Blistful'
 print n
+
+# Breaking out of the loop
+while True:
+    line = raw_input ('>')
+    if line == 'done':
+        break
+    print line
+print 'Done!'

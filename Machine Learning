@@ -1,0 +1,6 @@
+from sklearn.naive_bayes import GaussianNB
+#classifier
+clf = GaussianNB()
+#fit is the same as train
+# x - features, y - labels
+clf.fit(X, Y)

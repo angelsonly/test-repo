@@ -13,3 +13,25 @@ timer = simplegui.create_timer(1000, tick)
 
 # Start timer
 timer.start()
+
+# global vs local examples
+
+# num1 is a global variable
+
+num1 = 1
+print num1
+
+# num2 is a local variable
+
+def fun():
+    num1 = 2
+    num2 = num1 + 1
+    print num2
+    
+fun()
+
+# the scope of global num1 is the whole program, num 1 remains defined
+print num1
+
+# the scope of the variable num2 is fun(), num2 is now local for a function. And when you run it independently will be undefined
+# print num2

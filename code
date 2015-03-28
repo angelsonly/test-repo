@@ -94,3 +94,16 @@ print pos
 
 aa = frut.find('z')
 print aa
+
+# counting lines in a file
+fhand = open('Pismo.txt')
+count = 0
+for line in fhand:
+    count = count + 1
+print 'Line Count:', count
+    
+# reading the whole file
+fhand = open('Pismo.txt')
+inp = fhand.read()
+print len(inp)
+print inp [:20]

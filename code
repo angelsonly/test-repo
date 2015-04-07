@@ -107,3 +107,8 @@ fhand = open('Pismo.txt')
 inp = fhand.read()
 print len(inp)
 print inp [:20]
+
+fhand = open('mail-box.txt')
+for line in fhand:
+    if line.startswith('From:'):
+        print line

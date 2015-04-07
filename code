@@ -112,3 +112,11 @@ fhand = open('mail-box.txt')
 for line in fhand:
     if line.startswith('From:'):
         print line
+#INPUT
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+#OUTPUT
+Let's not go to Camelot. 'Tis a silly place.

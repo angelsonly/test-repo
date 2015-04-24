@@ -120,3 +120,16 @@ print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 #OUTPUT
 Let's not go to Camelot. 'Tis a silly place.
+
+#Take a break program
+import time
+import webbrowser
+
+total_breaks = 3
+break_count = 0
+print ('This program started on' + time.ctime())
+while (break_count < total_breaks):
+    time.sleep(10)
+    webbrowser.open('https://www.youtube.com/watch?v=qO4ZN5uZSVg&index=6&list=PL82YdDfxhWsDJTq5f0Ae7M7yGcA26wevJ')
+    break_count = break_count + 1
+    

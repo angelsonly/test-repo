@@ -69,6 +69,7 @@ while True:
     print line
 print 'Done!'
 
+
 # algorithm of finding the largest number
 largest_so_far = -1
 print 'Before', largest_so_far
@@ -133,3 +134,15 @@ while (break_count < total_breaks):
     webbrowser.open('https://www.youtube.com/watch?v=qO4ZN5uZSVg&index=6&list=PL82YdDfxhWsDJTq5f0Ae7M7yGcA26wevJ')
     break_count = break_count + 1
     
+#Guessing game    
+highest = 10
+answer = 7
+guess = raw_input('Guess a number from 0 to %d: ' %highest)
+while (int(guess) != answer):
+    if (int(guess) < answer
+        print "The answer is higher"
+    else:
+        print 'The Answer is lower'
+    guess = raw_input('Guess a number from 0 to %d: ' %highest)
+        raw_input('You are a Winner')
+        
